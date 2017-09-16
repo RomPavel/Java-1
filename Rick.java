@@ -17,15 +17,15 @@ public class Rick {
             e/=10;
 
         double sum=1;
-        double chislo=1;
-        int znam=2;
-        double N=-x*x/(znam*(znam-1));
+        double num=1;
+        int denum=2;
+        double N=-x*x/(denum*(denum-1));
 
         while(Math.abs(N)>e) {
-            N=-x*x/(znam*(znam-1));
-            chislo*=N;
-            sum+=+chislo;
-            znam+=2;
+            N=-x*x/(denum*(denum-1));
+            num*=N;
+            sum+=+num;
+            denum+=2;
         }
 
         System.out.print("cos: ");

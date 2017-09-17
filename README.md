@@ -1,2 +1,6 @@
 # Java-1
-Teylor (cos)
+
+Лабораторная работа 1
+
+Задание №8
+Teylor (arcsin)
